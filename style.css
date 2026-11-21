@@ -1,0 +1,225 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(img/shadowkuromi\ \(1\).gif);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+main {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: 30px auto;
+  min-height: 100vh;
+}
+@media (max-width: 700px) {
+  main {
+    flex-direction: column;
+  }
+  aside {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    align-self: stretch;
+  }
+  .perfil,
+  .url-perfil,
+  .acoes-contato {
+    width: 100%;
+  }
+  .content {
+    padding: 10px;
+  }
+}
+
+ul {
+  list-style: none;
+}
+.perfil {
+  background-image: url(./img/vermelho-escuro.jpg);
+  width: 380px;
+  max-width: 100%;
+  display: flex;
+  border: 2px solid black;
+  gap: 15px;
+  margin-top: 15px;
+  padding: 10px;
+}
+.perfil img {
+  width: 180px;
+  height: auto;
+  object-fit: cover;
+  margin: 5px;
+}
+.acoes a {
+  display: flex;
+  width: 100%;
+  padding: 8px;
+  color: palevioletred;
+  font-size: 18px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  background-color: rgb(17, 17, 17);
+  padding: 10px;
+}
+nav a {
+  color: white;
+  background-color: rgb(17, 17, 17);
+  padding: 8px 15px;
+  display: block;
+  text-decoration: none;
+}
+ul {
+  font-family: Arial;
+  color: white;
+  display: block;
+}
+.acoes-contato li {
+  margin-left: -25px;
+  width: 48%;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.acoes-contato img {
+  margin-left: 24px;
+  position: relative;
+  top: 4px;
+  width: 30px;
+  height: 30px;
+  gap: 4px;
+  flex-shrink: 0;
+}
+.informacoes li {
+  height: 50px;
+}
+.acoes-contato {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid white;
+  margin-top: 20px;
+  width: 378px;
+}
+h2 {
+  color: white;
+  font-family: arial;
+  padding: 8px;
+}
+.url-perfil {
+  background-image: url(./img/vermelho-escuro.jpg);
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 380px;
+}
+.url-perfil a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+  color: white;
+  width: 300px;
+  text-align: center;
+  padding: 5px;
+}
+.topo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+header {
+  background-color: black;
+}
+.user-menu {
+  position: absolute;
+  right: 20px;
+}
+.user-menu a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+  font-family: arial;
+}
+.barra li:not(:last-child) a::after {
+  content: " |";
+  color: palevioletred;
+  margin-left: 10px;
+}
+.content {
+  flex: 1;
+  padding: 20px;
+  min-height: 500px;
+  background-repeat: repeat;
+}
+.network {
+  border: 2px solid black;
+  margin-bottom: 20px;
+  color: white;
+  background-image: url(./img/vermelho-escuro.jpg);
+  background-repeat: repeat;
+  padding: 15px;
+  text-align: center;
+  margin-top: -20px;
+}
+.network h3 {
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+}
+.network p {
+  padding: 15px;
+  color: white;
+  line-height: 1.6;
+  font-size: 2rem;
+}
+li a {
+  text-decoration: none;
+}
+.box {
+  background-image: url(img/vermelho-escuro.jpg);
+  background-repeat: repeat;
+  border: 2px solid black;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.box p {
+  margin-bottom: 20px;
+  color: white;
+  font-family: arial;
+  font-size: 20px;
+  line-height: 1.6;
+}
+.about-me {
+  margin-top: 20px;
+}
+.section-title {
+  color: white;
+  font-family: arial;
+  margin-top: 20px;
+}
+.blog p {
+  color: white;
+  font-family: arial;
+  line-height: 25px;
+  font-weight: bold;
+}
+.blurbs {
+  margin-top: 10px;
+}
+.acoes a span {
+  width: 70px;
+}
