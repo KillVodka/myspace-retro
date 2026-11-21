@@ -1,5 +1,7 @@
 # MySpace Retro 🖤
 
+![Preview do projeto](img/print-myspace.png)
+
 Eu nunca tive um MySpace. Mesmo assim, sempre fui fascinado por aquelas páginas de perfil: glitter, música tocando sozinha, fundo estourado e um "Top 8" que virava assunto de briga.
 
 Este projeto é a minha tentativa de recriar essa estética emo/Y2K do zero, só com HTML e CSS, sem frameworks e sem enrolação.
