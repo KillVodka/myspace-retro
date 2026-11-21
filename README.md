@@ -19,13 +19,18 @@ Queria que a página parecesse um perfil de 2005, daqueles que a gente passava h
 - Background personalizado
 - Toda a estética dos anos 2000
 
-## 🛠️ Feito com
+## 📚 O que aprendi
 
-- HTML5
-- CSS3
-- Git
-- GitHub Pages
+Durante o desenvolvimento deste projeto pratiquei:
+
+- Estruturação de páginas com HTML5
+- Estilização e layouts com CSS3
+- Organização de arquivos e imagens
+- Controle de versão usando Git
+- Publicação de um site usando GitHub Pages
 
 ## ✌️ Quem fez
 
-**Lucas Veríssimo**, fã da estética e apreciador de design.
+**Lucas Veríssimo**
+
+Desenvolvedor em formação, gosto da estética retrô, cultura dos anos 2000 e criação de interfaces com personalidade.
